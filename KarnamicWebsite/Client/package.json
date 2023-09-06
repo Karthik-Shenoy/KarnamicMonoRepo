@@ -2,7 +2,7 @@
   "name": "karnamic-website",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Karthik-Shenoy.github.io",
+  "homepage": "https://karthik-shenoy.github.io/KarnamicMonoRepo/",
   "type": "module",
   "scripts": {
     "dev": "vite",
