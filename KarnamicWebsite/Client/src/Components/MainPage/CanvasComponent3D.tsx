@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import {  useRef } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Mesh} from "three"; // Import PlaneGeometry from the 'three' library
 import { GetBoxSize } from "./utils";
@@ -25,7 +25,7 @@ function RotatingBox() {
       position={[0.1, -0.1, 2]}
       rotation={[0, 0, 0]}
     >
-      <boxGeometry args={BoxSize} />
+      <boxGeometry args={[BoxSize[0],BoxSize[1],BoxSize[2]]} />
       <meshStandardMaterial color="gray" />
     </mesh>
   );
