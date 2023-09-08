@@ -4,7 +4,7 @@ import './NavBar.css';
 export default function NavBar() {
     return (
         <>
-            <nav className="z-[10] flex items-center py-4 shadow-lg sticky top-0 w-screen">
+            <nav className="z-[10] flex items-center py-4 shadow-lg bg-white sticky top-0 w-screen">
                 <div className="text-xl mx-auto font-mono font-bold">Karnamic</div>
                 <div className="nav-links flex justify-center flex-col sm:flex-row">
                     <a href="/" className="rounded-lg px-5 py-2 text-black mx-3 hover:bg-black hover:text-white transition duration-500 font-mono">Home</a>
